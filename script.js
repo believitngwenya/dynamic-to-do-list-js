@@ -1,4 +1,6 @@
-// Select DOM elements
+// Wait for the DOM to fully load before running the script
+document.addEventListener('DOMContentLoaded', function () {
+  // Select DOM elements
   const addButton = document.getElementById('add-task'); // "Add Task" button
   const taskInput = document.getElementById('task-input'); // Input field for task
   const taskList = document.getElementById('task-list'); // UL element to hold tasks
